@@ -93,6 +93,13 @@ body {
     }
 }
 
+@media screen and (max-width: 464px) {
+    .img-ko-logo {
+        width: 299px;
+        height: 87px;
+    }
+}
+
 a {
     color: #5F0F00;
 }
@@ -101,7 +108,7 @@ a {
     border-bottom: 2px solid #640b0b;
 }
 
-#header {
+.header {
     padding-top: 20px;
     background-color: #B63A29;
 }
